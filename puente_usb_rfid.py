@@ -1,7 +1,7 @@
 """
 puente_usb_rfid.py
 ===================
-Puente para lector USB RFID en COM4.
+Puente para lector USB RFID en COM.
 Lee UIDs del puerto serie, los convierte al formato MFRC522 (SimpleMFRC522._uid_to_num)
 y los envía al endpoint /api/rfid/last de la app web.
 
