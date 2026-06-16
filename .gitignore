@@ -1,0 +1,9 @@
+# Credenciales y configuración local sensibles
+config.env
+
+# Logs generados por el servicio o modo standalone
+*.log
+
+# Bytecode de Python
+__pycache__/
+*.pyc
