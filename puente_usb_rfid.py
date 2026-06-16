@@ -57,7 +57,7 @@ if not ADMIN_PASS:
 
 POLL_INTERVAL = float(os.getenv("RFID_POLL_INTERVAL", "0.1"))
 RECONNECT_DELAY = int(os.getenv("RFID_RECONNECT_DELAY", "5"))
-DEFAULT_CREDITS = int(os.getenv("RFID_DEFAULT_CREDITS", "10"))
+DEFAULT_CREDITS = int(os.getenv("RFID_DEFAULT_CREDITS", "1"))
 DEFAULT_EXPIRY_DAYS = int(os.getenv("RFID_DEFAULT_EXPIRY_DAYS", "1"))
 # ──────────────────────────────────────────────────────────────────────
 
